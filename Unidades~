@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	numeros(100);
+	return 0 ;
+}
+
+int numeros (int x) {
+
+	int centenas = x / 100 ;
+	int decenas = (x - centenas* 100) / 10 ;
+	int unidades = n - c * 100 - d * 10 ;
+
+	printf ( " %i \n ", centenas ) ;
+	printf ( " %i \n ", decenas ) ;
+	printf ( " %i \n ", unidades ) ;
+
+}
+
+
+
+

@@ -1,0 +1,29 @@
+Comandos de Linux
+
+gcc -o (Se escribe un nombre y este sera el que usaremos para ejecutarlo despues Ejemplo: Matias) main.c == compilar codigo
+
+./ Matias  ==   Se va a ejecutar la funcion ateriormente definida
+
+$ cat main.c       == mirar el codigo
+
+$ ls /home/directorio      == Listar una carpeta
+
+$ cd /home/ejercicios    == Ir a una carpeta
+
+$ cd ..        == Subir de carpeta
+
+Clear          == es limpiar la pantalla con espacios
+
+Ctr + alt + t  == terminal 
+
+Mkdir Nombre   == Crear una carpeta
+
+gedit nombre   == crear archivo de texto
+
+
+
+Para C
+Empezar con:
+		#include <stdio.h>
+
+(Esto sirve para definir las funciones del lenguage C)

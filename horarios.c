@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main () {
+	int a = 123456789;
+
+	segundosadias (a);
+	segundosahoras (a);
+	segundosaminutos (a);
+
+	return 0 ;
+}
+
+int segundosadias ( int x ) {
+
+	int dias =  x / 86400 ;
+
+	printf( " Dias %i\n", dias ) ;
+
+	return x - ( dias * 86400 ) ;
+
+}
+
+int segundosahoras ( int y ) {
+
+	int horas = y / 3600  ;
+
+	printf( " Horas %i\n", horas ) ;
+
+	return 0 ;
+}
+
+int segundosaminutos ( int y ) {
+
+	int minutos = y / 60  ;
+
+	printf( " Minutos %i\n", minutos ) ;
+
+	return 0 ;
+}

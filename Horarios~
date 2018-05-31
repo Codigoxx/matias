@@ -1,0 +1,34 @@
+include <stdio.h>
+
+int main () {
+
+	segundos (56);
+	return 0 ;
+}
+
+int segundos (int x) {
+
+	int dias = x * 86400 ;
+
+		if ( x >= 86400 ) {
+
+		printf ( " %i \n ", dias ) ;
+	}
+
+	int horas = (x - dias * 86400) / 24 ;
+
+		if ( x >= 24) {
+		 
+		printf ( " %i \n ", decenas ) ;
+	}
+
+	int minutos = x - dias * 86400 - horas * 24 ;
+
+		if ( x >= 1) {
+
+		printf ( " %i \n ", minutos ) ;
+}
+	
+	return 0;
+}
+
