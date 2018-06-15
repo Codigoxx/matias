@@ -25,6 +25,5 @@ gedit nombre   == crear archivo de texto
 Para C
 Empezar con:
 		#include <stdio.h>
-		#include <stdlib.h>
 
 (Esto sirve para definir las funciones del lenguage C)

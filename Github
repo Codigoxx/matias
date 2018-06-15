@@ -1,0 +1,14 @@
+Subir a Github
+1)Voy a la carpeta
+2)git init
+3)git remote add origin https://github.com/Codigoxx/matias.git
+4)git remote add origin /origin es el nombre del puente/
+
+hasta ahi una vez
+
+5)git add .
+6)git commit -m "Carpeta" /Carpeta es el nombre de la accion/
+7)Te pide tu usuariogit
+usernamecodigoxx 
+8)git commit -m "Carpeta"
+9)
